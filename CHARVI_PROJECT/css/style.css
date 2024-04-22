@@ -1,0 +1,496 @@
+*{
+    borrder: 1px solid red;
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family:  'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 30px;
+}
+body{
+    margin: 0px;
+    
+}
+.container{
+    position: relative;
+    top: 55px;
+}
+a:hover{
+    font-size: 17px;
+    color: rgb(28, 228, 235);
+  }
+#nav{
+    background-color: black;
+    
+    overflow: auto;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%; 
+    z-index: 1;
+    height: 55px;
+    
+}
+
+#nav img{
+    float: left;
+    width: 30px;
+    padding: 10PX;
+    padding-right:50px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+    
+}
+
+#nav ul li{
+    
+    float: left;
+    padding-right: 50px;
+    padding-left: 20px;
+    list-style-type: none;
+    
+}
+
+#nav ul li a{
+    
+    text-decoration: none;
+    color: white;
+}
+#nav ul li a:hover{
+    
+    
+    color: rgb(28, 228, 235);
+}
+
+#pic{
+    background-image: url(../images/one\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    
+    
+    
+}
+#pic img{
+    padding: 50px;
+    width: 300px;
+    
+}
+#heading h3{
+    
+    color: black;
+
+}
+
+#heaven{
+    background-image: url('../images/spapic3.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    overflow: auto;
+    color: white;
+    height: 100vh;
+    padding-top: 20px;
+    
+}
+#heaven h1{
+    padding-top: 15px;
+}
+.div33{
+    width: 33.2%;
+    float:left;
+    padding: 50px;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+#heaven img{
+    width:100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+     
+}
+.picdis{
+    border: 1px solid rgb(252, 252, 252);
+    
+    margin-top: -10px;
+}
+
+#services{
+    margin-top: 0px;
+    text-align: center;
+    overflow: auto;
+    align-content: center;
+    background-color: aliceblue;
+    padding-top: 20px;
+    
+}
+#services h3{
+    color: purple;
+    padding-top: 15px;
+}
+
+#division1{
+    display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+}
+.div33one{
+        width: 25%;
+        float:left;
+        padding: 50px;
+        box-sizing: border-box;  
+    }
+
+
+#icon1{
+    color:green;
+    font-size: 50px;
+}
+#icon2{
+    color: rgb(59, 43, 226);
+    font-size: 50px;
+}
+#icon3{
+    color:olive;
+    font-size: 50px;
+}
+
+
+#about{
+overflow: auto;
+align-content: center;
+margin-top: 30px;
+margin-bottom: 20px;
+
+}
+
+.div50{
+    width: 40%;
+    float:left;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.about1{
+    
+     margin-left: 18%; 
+      
+}
+
+#about img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+#about h3{
+    text-align: center;
+    color: purple;
+}
+#about h4 {
+    padding-top:50px;
+    font-size: large;
+}
+#about p{
+    padding-top:50px;
+    font-size: large;
+}
+
+
+#gallery{
+    background-color: aliceblue;
+    overflow: auto;
+    text-align: center;
+}
+#gallery h3{
+    color: purple;
+}
+.gallery-pic{
+    width: 33.33%;
+    float:left;
+    box-sizing: border-box;
+}
+
+.gallery-pic img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+#offers{
+    overflow: auto;
+    margin: 40px;
+    text-align: center;
+    border: 3px dashed rgb(216, 212, 212);
+    border-radius: 5px;
+}
+.offer{
+    width: 35%;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
+}
+#offers p{
+    padding-top: 0px;
+    text-align: left;
+}
+#offer-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#appoints{
+    overflow: auto;
+    background-color: rgb(244, 244, 244);
+    text-align: center;
+}
+.div3{
+    width: 25%;
+    float: left;
+}
+
+#appoint{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+#appoint a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#icon4{
+    color: rgb(20, 142, 207);
+}
+#icon5{
+    color: rgb(5, 86, 77);
+}
+#icon6{
+    color: rgb(234, 51, 51);
+}
+
+#redeem{
+    background-image: url('../images/lotus1.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 30vh;
+    color: white;
+}
+#redeem1 a{
+   
+    color: white;
+
+}
+
+#redeem1 h2{
+    padding: 30px;
+}
+
+#booking{
+    overflow: auto;
+    text-align: center;
+}
+.div33-1{
+    width: 25%;
+    float: left;
+    padding: 20px;
+
+}
+#book img{
+    width: 100%;
+}
+
+#book{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+#book p{
+    font-size: 20px;
+    padding: 10px;
+    padding-bottom: 100px;
+}
+
+#book h2{
+    color: purple;
+}
+
+#book a{
+    color: purple;
+}
+
+#deal{
+    overflow: auto;
+    text-align: center;
+}
+
+.div30{
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+#deal{
+    background-color: aliceblue;
+}
+#deal img{
+    width: 100%;
+}
+
+#deal h2{
+    color: purple;
+}
+#deal p{
+    font-size: 20px;
+    padding: 10px;
+}
+
+#deal button{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#deal button:hover{
+    background-color: white;
+    color: black;
+}
+
+#form{
+    overflow: auto;
+    font-size: 20px;
+    padding: 50px;
+    
+}
+#form h2{
+    text-align: center;
+}
+
+#division2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#div40-1{
+    width: 20%;
+    float: left;
+    padding-top: 50px;
+}
+#div40-1 a{
+    display: block;
+    padding: 20px;
+
+}
+
+#div40-2{
+    width: 60%;
+    float: left;
+}
+
+#div40-2 button{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+#div40-2 button:hover{
+    background-color: black;
+    color: white;   
+}
+
+#footer{
+    overflow: auto;
+    background-color: rgb(51, 49, 49);
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.foot33{
+    width: 33%;
+    float: left;
+}
+
+#footer1 img{
+    width: 80px;
+    padding-top: 20px;
+}
+
+#footer1{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+#socials li{
+    float: right;
+    list-style-type: none;
+}
+
+#socials a{
+    color: white;
+    font-size: large;
+    padding: 30px;
+    padding-left: 10px;
+    text-align: right;
+}
+#socials{
+    margin-right: 100px;
+}
+
+#footer1 form input{
+    padding: 10px;
+    border: 1px solid gray;
+}
+#footer1 form{
+    margin-top:-25px;
+}
+#footer1 form button{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#footer1 form button:hover{
+    background-color: black;
+    color: white;   
+}
+
+#footer2{
+    background-color: rgb(97, 97, 97);
+    text-align: center;
+    padding: 0px;
+}
+#footer2 p{
+    margin: 0px;
+}
+#social-icon1{
+    color: red;
+}
+#social-icon2{
+    color: rgb(138, 150, 237);
+}
+#social-icon3{
+    color: rgb(211, 98, 219);
+}
+#social-icon4{
+    color: red;
+}
+#socials i:hover{
+ font-size: 20px;
+}
+

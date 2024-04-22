@@ -1,0 +1,188 @@
+/* *{
+    border: 1px solid red;
+} */
+/* .para{
+    text-align: justify;
+} */
+.navbar {
+    overflow: hidden;
+    position: fixed !important; /* Set the navbar to fixed position */
+    top: 0 !important; /* Position the navbar at the top of the page */
+    width: 100%; 
+    padding-bottom: 0 !important;
+    z-index: 5;
+  }
+
+#jitendra{
+    display: inline;
+    color: white;
+
+}
+#jitendra:hover{
+    font-weight: 500;
+    color:aqua;
+}
+.nav-link:focus, .nav-link:hover {
+    color:aqua !important;
+    font-weight: 500;
+}
+
+.nav-link{
+    color:white !important;
+}
+.navbar{
+padding-top: 0 !important;
+padding-bottom: 10px;
+}
+
+#btn{
+    border: 1px solid rgb(240, 238, 238);
+    color:black;
+    background-color: white;
+    
+}
+#btn:hover{ background-color: black;
+color: white;
+}
+
+#home .homeitem{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#home .homeitem h4{
+    padding: 10px;
+
+}
+
+#button{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    border-radius: 0% !important;
+}
+#button:hover{
+    color: rgb(251, 251, 251) !important;
+    font-weight: 500;
+    background-color: black;
+
+}
+/* #button1{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    border-radius: 0% !important;
+}
+#button1:hover{
+    color: rgb(251, 251, 251) !important;
+    font-weight: 500;
+    background-color: black;
+
+} */
+#button1, #button2{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    border-radius: 2 !important;
+}
+#button2:hover, #button1:hover{
+    color:black !important;
+    font-weight: 500;
+    background-color: white;
+
+}
+#skills p{
+    padding-top: 10px !important;
+    padding-bottom: 0px;
+}
+
+.cgpa{
+display:inline;
+color:white;
+background-color: rgb(89, 220, 89);
+padding: 5px;
+}
+
+#footer{
+    border:1px solid rgb(47, 50, 48) ;
+    background-color: rgb(47, 50, 48);
+    color: white !important;
+    
+}
+.form label{
+    padding: 10px 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#youtube{
+    color:red
+}
+#youtube:hover{
+    color:white;
+    font-weight:500;
+     
+}
+#instagram{
+    color:rgb(157, 46, 46)
+}
+#instagram:hover{
+    color:white;
+    font-weight:500;
+     
+}
+#twitter{
+    color:rgb(61, 146, 211)
+}
+#twitter:hover{
+    color:white;
+    font-weight:500;
+     
+}
+#facebook{
+    color:rgb(105, 138, 246)
+}
+#facebook:hover{
+    color:white;
+    font-weight:500;
+     
+}
+#strom{
+    color:rgb(5, 128, 64)
+}
+#strom:hover{
+    color:white;
+    font-weight:500;
+     
+}
+#social a{
+    font-size: x-large;
+}
+
+#project_img .images:hover{
+    opacity: 0.8;
+
+}
+
+.quote{
+    text-align: center;
+    
+}
+
+#banner{
+    position: relative;
+    top:190px;
+    left:8px;
+    width: 100%;
+}
+#banner1{
+    position: relative;
+    top:250px;
+    left:8px;
+    width: 100%;
+}
+  *{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+  }
+  

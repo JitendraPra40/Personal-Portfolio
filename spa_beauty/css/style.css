@@ -1,0 +1,60 @@
+.nav-link:focus, .nav-link:hover {
+    color: rgb(0 0 0) !important;
+    font-weight: 500;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+
+
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+.change a:hover p{
+color:rgb(91, 38, 239);
+font-weight: bolder;
+}
+
+.change a:hover h6{
+    color: aqua;
+    font-weight: bolder;
+    }
+ .change a:hover {
+        color: aqua;
+        font-weight: bolder;
+        }
+
+.form label{
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+    

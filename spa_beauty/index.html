@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Charvi's Spa</title>
+  <!--bootstrap icon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg " style="background-color: rgb(238, 179, 127)" ;>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="photo/Logo.png" alt="logo" class="img-fluid" width="100px"
+          height="50px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav fs-5">
+          <li class="nav-item pe-3">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item pe-3">
+            <a class="nav-link" href="#section2">About Us</a>
+          </li>
+          <li class="nav-item pe-3">
+            <a class="nav-link" href="#section3">Client</a>
+          </li>
+          <li class="nav-item dropdown pe-3">
+            <a class="nav-link dropdown-toggle" href="#section4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#section4">Action</a></li>
+              <li><a class="dropdown-item" href="#section4">Another action</a></li>
+              <li><a class="dropdown-item" href="#section4">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section5">Contact Us</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+  </nav>
+
+<section id="section1">
+  <!--slider start-->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="photo/one (1).jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Body Therapy Treatment</h5>
+          <p>Body therapy is a type of holistic healing that uses various techniques to improve the health and well-being of the body</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photo/one (2).jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Nail & Foot care</h5>
+          <p>Chemical makeup of nail polish makes bacteria nearly impossible to survive</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photo/one (3).jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Facial Treatments</h5>
+          <p>Deep Pore Cleansing Facial, Hydrating Facial, Glycolic Peel</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="photo/one (5).jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Multi-Products</h5>
+          <p>we've curated a collection of spa products for a serene escape, from bath bombs to lush robes</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--slider end-->
+  
+
+  <!--heading-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="display-6 text-center pt-5 pb-5 text-center font-weight-bold">CHARVI'S SPA</h1>
+      </div>
+    </div>
+    <!--henading end-->
+
+    <!--card-->
+    <div class="container-fluid" Style="background-color: ghostwhite; margin-bottom: 10px; padding-bottom: 10px;">
+      <div class="row row-cols-1 row-cols-md-3 g-4 bg.secondary-subtle ">
+
+        <div class="col">
+          <div class="card">
+            <img src="photo/two (1).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Facial Treatments</h5>
+              <p class="card-text">Facial Teatements, will fill you with vitality and pleasure of being yourself.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="photo/two (2).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Body Treatments</h5>
+              <p class="card-text">Body Treatments, will give you the feeling of zero gravity.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="photo/two (3).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Massages</h5>
+              <p class="card-text">Massages, a good start on the way to active longgevity! must try...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!-- card end-->
+<section id="section4">
+  <!--service container-->
+  <div class="container-fluid"
+    style="background-image: url('photo/three (2).jpg'); height: 100vh; background-size: cover;">
+    <div class="row">
+      <div class="col-12">
+        <h5 class="text-center  mt-5" style="color:blueviolet;">Services</h5>
+        <h2 class="display-6 text-center  mb-5 ">Treatment & Amenities</h2>
+      </div>
+    </div>
+
+    <div class="row justify-content-center mb-5 " style="background-color: aliceblue;">
+      <div class="col-md-3  text-center mt-5">
+        <h1><i class="bi bi-flower3 text-danger"></i></h1>
+        <h3>Body Scrub</h3>
+        <p>A body scrub is a physical exfoliant that is usually either salt or sugar-based, used to remove dead skin
+          cells from your skin.</p>
+      </div>
+      <div class="col-md-3 text-center mt-5">
+        <h1><i class="bi bi-droplet-half text-primary"></i></h1>
+        <h3>Facials</h3>
+        <p>It can be as extensive as one where you are given a full body massage in the package, or others where you are
+          only given the basics.</p>
+      </div>
+      <div class="col-md-3 text-center mt-5">
+        <h1><i class="bi bi-tree-fill text-success"></i></h1>
+        <h3>Steam Room</h3>
+        <p>Steaming is a super popular method that leaves your skin clean, flushed, and glowing – now that is how we'd
+          describe healthy skin!</p>
+      </div>
+    </div>
+
+  </div>
+  <!--service container end-->
+<section>
+    
+    <section id="section2">
+  <!--About container-->
+  <div class="container-fluid mt-2 mb-5">
+
+
+    <div class="row justify-content-center text-center">
+
+      <div class="col-md-5">
+        <h6 class="text-center p-5" style="color:blueviolet;">ABOUT</h6>
+        <p class="fs-3 p-3">"Heaven Spa is an oasis of beauty and serenity in the heart of Londan." - Forbes Travel
+          Guide</p>
+      </div>
+      <div class="col-md-5 pb-4">
+        <img src="photo/new.jpg" class="img-fluid" alt="">
+      </div>
+   
+
+    
+      <div class="col-md-5">
+        <img src="photo/new1.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-5 change">
+        <p class="fs-5 p-3 mt-5">Recently awarded the prestigious and highly coveted Forbes Travel Guide Five-Star
+          Award, The Charvi's Spa is an oasis of beauty and serenity in the heart of London, delivering a sensory
+          journey that calms and revitalizes the mind, body and spirit.</p>
+        <a href="#" style="color:blueviolet;">READ MORE</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!--About conatiner end-->
+
+
+
+  <!-- bootstrap image gallery 1 -->
+  <div class="container-fluid mt-5" style="background-color: ghostwhite;">
+
+    <div class="jumbotron">
+      <h6 class="text-center pt-4" style="color:blueviolet;">Popular Spa</h6>
+      <h2 class="display-6 text-center  mb-5 ">Gallary</h2>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+            class="img-thumbnail grayscale">
+          <figcaption>Mountain 1</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+            class="img-thumbnail grayscale">
+          <figcaption>Mountain 2</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+            class="img-thumbnail grayscale">
+          <figcaption>Mountain 3</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+            class="img-thumbnail grayscale">
+          <figcaption>Mountain 4</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+            class="img-thumbnail grayscale">
+          <figcaption>Mountain 5</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bW91bnRhaW5zfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+            class="img-thumbnail grayscale">
+          <figcaption>Mountain 6</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1434394354979-a235cd36269d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG1vdW50YWluc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+            class="img-thumbnail grayscale">
+          <figcaption>Mountain 7</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1485160497022-3e09382fb310?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG1vdW50YWluc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+            class="img-thumbnail grayscale">
+          <figcaption>Mountain 8</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1491904768633-2b7e3e7fede5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fG1vdW50YWluc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+            class="img-thumbnail grayscale">
+          <figcaption>Mountain 9</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1458668383970-8ddd3927deed?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG1vdW50YWluc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+            class="img-thumbnail grayscale">
+          <figcaption>Mountain 10</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1540390769625-2fc3f8b1d50c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG1vdW50YWluc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+            class="img-thumbnail grayscale">
+          <figcaption>Mountain 11</figcaption>
+        </figure>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1464278533981-50106e6176b1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fG1vdW50YWluc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+            class="img-thumbnail grayscale">
+          <figcaption>Mountain 12</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section3">
+    
+  <div class="container-fluid mt-5">
+
+
+    <div class="row justify-content-center">
+
+      <div class="col-md-4">
+
+        <p class="fs-3 p-2 text-center">"Heaven Spa is an oasis of beauty and serenity in the heart of Londan." -
+          Forbes Travel
+          Guide</p>
+      </div>
+      <div class="col-md-4">
+        <p class="fs-6 p-3 text-justify">Guests of Charvi's Spa happy hour will enjoy 20 oercent off any 60-minute of
+          longer massage, body treatment. For additional information or to make a reservation, please call +91 (870)
+          725-3755.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-center mb-5 mt-5 p-2 change bg-body-tertiary">
+      <div class="col-md-3"><a href="#" class="text-decoration-none text-dark">
+          <p class="bi bi-calendar2-check text-center"> MAKE AN APPOINTMENT</p>
+        </a></div>
+      <div class="col-md-3"><a href="#" class="text-decoration-none text-dark">
+          <p class="bi bi-gift text-center text-danger"> FESTIVE GIFTS FOR YOUR LOVED ONES</p>
+        </a></div>
+      <div class="col-md-3"><a href="#" class="text-decoration-none text-dark">
+          <p class="bi bi-badge-vr text-center"> TAKE A VIRTUAL TOUR</p>
+        </a></div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-image img-fluid"
+    style="background-image: url('photo/lotus1.jpg');height:50vh; background-repeat: no-repeat;background-size: cover;">
+    <div class="row justify-content-center ">
+      <div class="col-md-12 mt-5">
+        <p class="text-light text-center fs-5 p-5">50% of for all massages! Offer available Today only 15 Sep
+          2023.</p>
+      </div>
+
+      <div class="col-md-3">
+
+        <p class="text-light text-center p-5 text-decoration-underline"><a href="#"></a>REDEEM VOUCHER</a></p>
+
+      </div>
+    </div>
+  </div>
+  
+  
+
+  <div class="container-fluid mt-5 mb-5">
+    <div class="row justify-content-center text-center">
+
+      <div class="col-md-3 pt-2 change">
+        <h5 class="text-center p-4 pt-5" style="color:blueviolet;">MEMBERSHIP</h5>
+        <h4>Enjoy our Membership Packages</h4>
+        <p class="fs-6 p-2">From Yoga & Massage to Acupuncture & Hot Stone, we have what you're looking for. Try one
+          of our monthly memberships, 2, 3, or 4, per month.</p>
+        <br><br><br>
+        <a href="#">
+          <h6 class="text-center p-2 text-decoration-underline" style="color:blueviolet;">BOOK NOW</h6><br>
+        </a>
+        <a href="#">
+          <h6 class="text-center p-2 text-decoration-underline" style="color:blueviolet;">VIEW PACKAGE</h6>
+        </a>
+      </div>
+      <div class="col-md-3 pt-2">
+        <img src="photo/nature.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-3 pt-2">
+        <img src="photo/nature1.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+
+  </div>
+  <!--About conatiner end-->
+  <div class="container-fluid mt-5 mb-5 p-3" Style="background-color: ghostwhite;">
+    <div class="row text-center">
+
+
+      <div class="col-md-3 pt-2">
+        <img src="photo/flower.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-3 pt-2">
+        <img src="photo/flower1.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-md-3">
+        <h5 class="text-center pt-3" style="color:blueviolet;">SPECIAL DEAL</h5>
+        <h4>Exclusive Members</h4>
+        <p class="fs-6 p-2">Your Spa as the spa membership program provides you with a steady income, while the spa
+          loyalty program. </p>
+        <button type="button" class="btn btn-primary p-3">FIND MORE</button>
+      </div>
+    </div>
+  </div>
+  <hr>
+  </section>
+  <section id="section5">
+  <!--form and link container-->
+  <div class="container-fluid">
+    <div class="row justify-content-evenly">
+      <!--link-->
+      <div class="col-md-2  p-5 change bg-body-tertiary">
+        <a href="#" class="text-decoration-none">
+          <p class=" pt-3" style="color:blueviolet;">RESERVATION</p>
+        </a>
+        <a href="#" class="text-decoration-none">
+          <p class=" pt-3" style="color:blueviolet;">HOURS</p>
+        </a>
+        <a href="#" class="text-decoration-none">
+          <p class=" pt-3" style="color:blueviolet;">LOCATIONS</p>
+        </a>
+      </div>
+      <!--link end-->
+      <!--form-->
+      <div class="col-md-6 p-4 bg-body-tertiary">
+        <h4>Make a reservation</h4>
+        <p class="pb-3">choose a service to book below. For must have now appointments please call: +91 870-725-3755.
+        </p>
+        <div>
+          <form class="form">
+            <label for="name">Name</label><br>
+            <input type="text" placeholder="Name" id="name"><br>
+            <label for="Service">Procedure</label><br>
+            <input type="text" placeholder="Service" id="Service"><br>
+            <label for="Message">Message</label><br>
+            <textarea class="mb-3"id="Message" rows="4" cols="30" placeholder="Message"></textarea><br>
+            <button class="btn btn-outline-dark" type="submit">BOOK NOW</button>
+          </form>
+        </div>
+      </div>
+      <!--form end-->
+    </div>
+  </div>
+  <!--form and link end-->
+  <!--footer-->
+  <div class="container-fluid text-white pt-5" style="background-color:#3C4042;">
+    <div class="row justify-content-center">
+      <div class="col-md-3 "><a class="navbar-brand" href="#"><img src="photo/Logo.png" alt="logo" width="100px"
+            height="50px"></a></div>
+      <div class="col-md-3">
+        <h6>Subscribe to our newletter</h6><input type="email" placeholder="your@email.com"> <button
+          type="submit">Send</button>
+      </div>
+      <div class="col-md-3 ">
+        <h6>Follow us on:</h6>
+        <ul class="socials">
+          <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+          <li><a href="#"><i class="bi bi-tropical-storm"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--footer end-->
+  <!--copyright-->
+  <div class="container-fluid text-white" style="background-color:#505456;">
+    <div class="row justify-content-center">
+      <div class="col-md-3">
+        <p>&copy 2023 Charvi's.spa.com All rights reserved</p>
+      </div>
+    </div>
+  </div>
+  <!--copy right end-->
+</section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
